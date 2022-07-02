@@ -35,7 +35,7 @@ label peMod_topic_intro:
             m "I hope you don't get too inconvenienced by it."
             m "Periods can make us so uncomfortable!"
             m "But it's how our bodies work..."
-            m "I'll try to give you some tips ans information about it, [player]!"
+            m "I'll try to give you some tips and information about it, [player]!"
             m "Knowledge is never too much."
             m "Thanks for trusting in me!"
 
@@ -125,7 +125,7 @@ label peMod_topic_cravings:
 
     if persistent._pe_mod_has_periods:
         m "[mas_get_player_nickname(capitalize=True)], once I'm in your reality, I'll be sure to indulge and help you with your cravings!"
-        m "Ehehehe!"
+        m "Ehehe!"
         m "I love you so much~"
 
     else:
@@ -155,7 +155,7 @@ label peMod_topic_pms:
     m "Is a time where those who have periods will get irritable, anxious, and overall more hormonal before their period."
     m "However, the symptoms can be physical as well!"
 
-    if not persistent._pe_mod_has_periods:
+    if persistent._pe_mod_has_periods:
         m "[mas_get_player_nickname(capitalize=True)], if you have pre menstrual symptoms, you can rant to me about it anytime."
         m "I'll understand! "
         extend "And I'll hope you'll get to feel more like yourself later."
@@ -186,9 +186,9 @@ label peMod_topic_ads:
     m "[player], you know what really irritates me?"
     m "Those pad and tampon advertisements that showcase people, mostly women, doing extremely strenuous activities and being happy about it."
     m "Now, I personally believe that you can do whatever you want on your period - within reason, of course!"
-    m "But it is so ridiculous to market pads and tampons as only for women and not for all those that experience periods as well as, not showcasing the multitude of people who are in too much pain to do that kind of stuff on there period!"
+    m "But it is so ridiculous to market pads and tampons as only for women and not for all people that experience periods, as well as not showcasing the multitude of people who are in too much pain to do that kind of stuff on their period!"
     m "It just makes me really upset [player], that this false advertising can and does create a narrative that periods are not something that can be debilitating."
-    m "Anyway [mas_get_player_nickname()], thank you for letting me rant about this."
+    m "Anyway, [mas_get_player_nickname()], thank you for letting me rant about this."
     m "You're so sweet~"
     
 return
@@ -237,10 +237,10 @@ label peMod_topic_cramppain:
     m "Well it's come to my attention that there is a stigma that the pain someone might experience on their period is the same as any other."
     m "And that's just plain incorrect!"
     m "It's been scientifically proven that everyone experience their periods differently, including pain wise."
-    m "In fact, some cramps can be so horrible there on the same pain level as a heart attack!"
+    m "In fact, some cramps can be so horrible that they're on the same pain level as a heart attack!"
     m "..."
     m "I'm sorry [player], I just get upset when people ignore others suffering and spread misinformation."
-    m "[mas_get_player_nickname(Capitalize=True)], if you ever are in pain or any kind, just know that I understand and you are completely valid."
+    m "[mas_get_player_nickname(Capitalize=True)], if you ever are in pain of any kind, just know that I understand and you are completely valid."
     m "I love you so much and truly only want the best for you."
 
 return
@@ -262,7 +262,7 @@ label peMod_topic_alwaysperiod:
     m "[player], have you ever heard anyone perpetuate the stigma that people - those who have them - are always on their period?"
     m "Honestly, it makes me upset that people say this."
     m "No one can control their periods and even those on birth control (to help with the regularity of periods) often still have irregular periods."
-    m "In my personal opinion this is just a way for those who don't experience it to complain about something for petty reasons."
+    m "In my personal opinion, this is just a way for those who don't experience it to complain about something for petty reasons."
     m "Anyway, [player], thanks for listening to me rant!"
     m "You're always so sweet!"
     m "I love you so much~"
